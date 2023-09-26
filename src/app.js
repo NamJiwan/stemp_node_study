@@ -4,6 +4,8 @@
 
 //build -> common js
 import express from "express";
+import viewRouter from "./router/viewRouter";
+import apiRouter from "./router/apiRouter";
 
 
 const app = express();
@@ -22,30 +24,19 @@ app.set("views", process.cwd() + "/src/client/html");
 
 
 // node는 미들웨어 시스템으로 이루어져있음
-app.use((req,res,next)=>{
-  console.log("지나갑니다");
-  next();
-})
-
-
-app.get("/",(req,res)=>{
-  const homeData = {
-    data : [
-      {name:"처수"},
-      {name:"영희"},
-      {name:"민수"},      
-    ],
-    data1 : [
-      {name:"처수1"},
-      {name:"영희1"},
-      {name:"민수1"},      
-    ],
-  };
-  res.render("home",homeData)
-})
-app.get("/introduce",(req,res)=>{
-  res.render("introduce")
-})
+// app.use((req,res,next)=>{
+//   console.log("지나갑니다");
+//   next();
+// })
+app.use("/css",express.static("src/client/css"));
+app.use("/js",express.static("src/client/js"));
+app.use("/file",express.static("src/client/file"));
+/*
+ * 주소 : /**   view만 전달해주는 router  viewRouter => ejs 파일만 전달해주는 
+ * 주소 : /api  api만 전달해주는 router   apiRouter => 데이터만 전달해주는
+ */
+app.use("/api", apiRouter);
+app.use("/",viewRouter);
 
 
 app.listen("8080",()=>{
