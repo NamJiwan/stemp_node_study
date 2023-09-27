@@ -26,14 +26,25 @@
     </li>
     <li>
       <a href="/profile">
-        <i class="fas fa-alt"></i>
+        <i class="fas fa-user-alt"></i>
         <p>프로필</p>
       </a>
     </li>
   </ul>
 </footer>
 
-
-  
-</body>
-</html>
+<script>
+  const addClickStyle = () => {
+    const currentPath = window.location.pathname;
+    // console.log(currentPath);
+    const links = document.querySelectorAll(".footer ul li a");
+    // console.log(links);
+    links.forEach((link) => {
+      if (link.getAttribute("href") === currentPath) {
+        // console.log(link);
+        link.parentElement.classList.add("on");
+      }
+    });
+  };
+  document.addEventListener("DOMContentLoaded", addClickStyle);
+</script>
