@@ -20,8 +20,8 @@
 /* introduce */
 .introduce-title-wrap { color: #a1805f; text-align: center; margin: 0 auto; padding: 30px; font-size: 20px; font-family: 'Pretendard-ExtraBold' !important; letter-spacing: 2px; }
 .introduce-title-wrap p { font-size: 18px; }
-.introduce-content-wrap { font-family: "Pretendard-Medium"; padding: 0 40px; font-size: 18px; text-align: center; }
-.introduce-content-wrap p { margin-bottom: 10px;}
+.introduce-content-wrap { font-family: "Pretendard-Medium";  font-size: 18px; text-align: center; }
+/* .introduce-content-wrap p { margin-bottom: 10px;} */
 
 /* course */
 .course-nav-ul { display: flex; flex-wrap: wrap; padding: 20px 0; margin-bottom: 20px; }

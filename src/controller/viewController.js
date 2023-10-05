@@ -1,3 +1,5 @@
+const data = require('../data/info.json');
+
 //viewController.js
 export const homeViewController = (req,res)=>{
   const homeData = {
@@ -15,8 +17,8 @@ export const homeViewController = (req,res)=>{
   res.render("home",homeData)
 };
 
-export const introduceViewController = (req,res)=>{
-  res.render("introduce")
+export const introduceViewController = (req,res)=>{  
+  res.render("introduce", { data } )
 }
 export const courseViewController = (req,res)=>{
   res.render("course")
@@ -33,3 +35,4 @@ export const joinController = (req,res)=>{
 export const loginController = (req,res)=>{
   res.render("login")
 }
+

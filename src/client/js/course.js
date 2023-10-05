@@ -14,7 +14,7 @@ const drawMap = (latitue, longitude) => {
   };
 
   map = new kakao.maps.Map(locationMap, options);
-  map.setZoomable(false);
+  
 };
 
 const addUserMarker = () => {
@@ -105,8 +105,7 @@ const configurationLocationWatch = () => {
         allCourserMarker();
       }
       addUserMarker();
-      if (clickCourseId === 0) {
-        
+      if (clickCourseId === 0) {        
         panTo(userLatitue, userLongitude);
       }
     });

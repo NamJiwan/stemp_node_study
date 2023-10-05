@@ -1,0 +1,226 @@
+{
+  "art": [
+    {
+      "name": "대구 미술관",
+      "imgHref": "../file/introduce/art-1.png",
+      "latitude": "35.827746",
+      "longitude": "128.674444"
+    },
+    {
+      "name": "삼덕동 갤러리 골목",
+      "imgHref": "../file/introduce/art-2.png",
+      "latitude": "35.865692",
+      "longitude": "128.603343"
+    },
+    {
+      "name": "김광석 거리",
+      "imgHref": "../file/introduce/art-3.png",
+      "latitude": "35.859544",
+      "longitude": "128.606515"
+    },
+    {
+      "name": "대구 오페라 하우스",
+      "imgHref": "../file/introduce/art-4.png",
+      "latitude": "35.883487",
+      "longitude": "128.592330 "
+    },
+    {
+      "name": "대구 국립 과학관",
+      "imgHref": "../file/introduce/art-5.png",
+      "latitude": "35.686337",
+      "longitude": "128.465456"
+    },
+    {
+      "name": "대구 문화 예술 회관",
+      "imgHref": "../file/introduce/art-6.png",
+      "latitude": "35.844519",
+      "longitude": "128.559470"
+    },
+    {
+      "name": "마비정 벽화마을",
+      "imgHref": "../file/introduce/art-7.png",
+      "latitude": "35.778927",
+      "longitude": "128.541939"
+    },
+    {
+      "name": "대구 어린이 세상",
+      "imgHref": "../file/introduce/art-8.png",
+      "latitude": "35.846595",
+      "longitude": "128.627736"
+    },
+    {
+      "name": "대구 예술 발전소",
+      "imgHref": "../file/introduce/art-9.png",
+      "latitude": "35.875545",
+      "longitude": "128.584430"
+    }
+  ],
+  "history": [
+    {
+      "name": "대구 근대 역사관",
+      "imgHref": "../file/introduce/history-1.png",
+      "latitude": "35.871741",
+      "longitude": "128.591135"
+    },
+    {
+      "name": "계산 성당",
+      "imgHref": "../file/introduce/history-2.png",
+      "latitude": "35.867931",
+      "longitude": "128.587818"
+    },
+    {
+      "name": "대구 제일교회",
+      "imgHref": "../file/introduce/history-3.png",
+      "latitude": "35.867828",
+      "longitude": "128.585998"
+    },
+    {
+      "name": "대구 향토역사관",
+      "imgHref": "../file/introduce/history-4.png",
+      "latitude": "35.873062",
+      "longitude": "128.579019"
+    },
+    {
+      "name": "3.1운동 만세길",
+      "imgHref": "../file/introduce/history-5.png",
+      "latitude": "37.109002",
+      "longitude": "126.799196"
+    },
+    {
+      "name": "은혜의 정원",
+      "imgHref": "../file/introduce/history-6.png",
+      "latitude": "35.867138",
+      "longitude": "128.585194"
+    },
+    {
+      "name": "모명재 한국 전통문화 체험관",
+      "imgHref": "../file/introduce/history-7.png",
+      "latitude": "35.857955",
+      "longitude": "128.651628"
+    },
+    {
+      "name": "청라언덕",
+      "imgHref": "../file/introduce/history-8.png",
+      "latitude": "35.866693",
+      "longitude": "128.585395"
+    },
+    {
+      "name": "향촌문화관",
+      "imgHref": "../file/introduce/history-9.png",
+      "latitude": "35.873359",
+      "longitude": "128.594222"
+    }
+  ],
+  "healing": [
+    {
+      "name": "에코테마파크 대구숲",
+      "imgHref": "../file/introduce/healing-1.png",
+      "latitude": "35.792929",
+      "longitude": "128.626411"
+    },
+    {
+      "name": "수성못",
+      "imgHref": "../file/introduce/healing-2.png",
+      "latitude": "35.827433",
+      "longitude": "128.617615"
+    },
+    {
+      "name": "하중도",
+      "imgHref": "../file/introduce/healing-3.png",
+      "latitude": "35.900943",
+      "longitude": "128.560179"
+    },
+    {
+      "name": "이서공원",
+      "imgHref": "../file/introduce/healing-4.png",
+      "latitude": "35.835024",
+      "longitude": "128.606532"
+    },
+    {
+      "name": "동촌유원지",
+      "imgHref": "../file/introduce/healing-5.png",
+      "latitude": "35.882540",
+      "longitude": "128.650857"
+    },
+    {
+      "name": "팔공산 케이블카",
+      "imgHref": "../file/introduce/healing-6.png",
+      "latitude": "35.990849",
+      "longitude": "128.694911"
+    },
+    {
+      "name": "안심습지",
+      "imgHref": "../file/introduce/healing-7.png",
+      "latitude": "35.864902",
+      "longitude": "128.747130"
+    },
+    {
+      "name": "대구 이곡 장미공원",
+      "imgHref": "../file/introduce/healing-8.png",
+      "latitude": "35.857895",
+      "longitude": "128.514823"
+    },
+    {
+      "name": "사문진",
+      "imgHref": "../file/introduce/healing-9.png",
+      "latitude": "35.811086",
+      "longitude": "128.477094"
+    }
+  ],
+  "shopping": [
+    {
+      "name": "이월드",
+      "imgHref": "../file/introduce/shopping-1.png",
+      "latitude": "35.853547",
+      "longitude": "128.563212"
+    },
+    {
+      "name": "대구 현대백화점",
+      "imgHref": "../file/introduce/shopping-2.png",
+      "latitude": "35.866647",
+      "longitude": "128.590635"
+    },
+    {
+      "name": "강정고령보",
+      "imgHref": "../file/introduce/shopping-3.png",
+      "latitude": "35.841432",
+      "longitude": "128.464426"
+    },
+    {
+      "name": "앞산 전망대",
+      "imgHref": "../file/introduce/shopping-4.png",
+      "latitude": "35.824777",
+      "longitude": "128.579458"
+    },
+    {
+      "name": "대구 신세계백화점",
+      "imgHref": "../file/introduce/shopping-5.png",
+      "latitude": "35.877920",
+      "longitude": "128.629161"
+    },
+    {
+      "name": "삼성 라이온즈파크",
+      "imgHref": "../file/introduce/shopping-6.png",
+      "latitude": "35.841266",
+      "longitude": "128.681545"
+    },
+    {
+      "name": "대구 아쿠아리움",
+      "imgHref": "../file/introduce/shopping-7.png",
+      "latitude": "35.877932",
+      "longitude": "128.628909"
+    },
+    {
+      "name": "서문시장",
+      "imgHref": "../file/introduce/shopping-8.png",
+      "latitude": "35.868670",
+      "longitude": "128.580876"
+    },
+    {
+      "name": "대구 스타디움",
+      "imgHref": "../file/introduce/shopping-9.png",
+      "latitude": "35.829891",
+      "longitude": "128.689870"
+    }
+  ]
+}
