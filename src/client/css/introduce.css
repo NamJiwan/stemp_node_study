@@ -8,14 +8,14 @@ body{
   margin-top: 110px;
 }
 .location-map{
-  height: 500px !important;
+  height: 530px !important;
 }
 /* 토글 슬라이드 부분 */
 .introduce-wrap {
   position: absolute;
   width: 90%;
   min-width: 350px;
-  bottom: -24%;
+  bottom: -21%;
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 10px 10px 0px 0px;
@@ -24,11 +24,11 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: all 0.5s;
+  /* transition: all 0.5s; */
   z-index: 10;
 }
 .introduce-wrap.move {
-  bottom: 60px;
+  bottom: 35px;
 }
 .introduce-wrap .slideUP-button {
   width: 60%;
@@ -38,7 +38,7 @@ body{
   background: #f1f0f1;
 }
 .introduce-wrap h1 {
-  padding: 1.5rem 0 1rem 0;
+  padding: 10px 0 10px 0;
 }
 
 /* 탭메뉴 */
@@ -54,7 +54,6 @@ body{
 /* 탭 스타일 */
 .tab_item {
   width: calc(100% / 4 - 10px);
-
   padding: 1rem 0;
   background-color: #f8f8f8;
   line-height: 50px;
@@ -73,28 +72,28 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .tap-history {
   background-image: url("../file/introduce/history-main.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .tap-healing {
   background-image: url("../file/introduce/healing-main.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .tap-shopping {
   background-image: url("../file/introduce/shopping-main.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 label.tab_item {
   padding: 1rem 0;
@@ -149,7 +148,7 @@ input[name="tab_item"] {
   font-size: 15px;
   font-weight: 500;
   line-height: normal;
-  padding-bottom: 1rem;
+  padding-bottom: 10px;
 }
 .introduce-link-wrap {
   width: 75%;
@@ -184,7 +183,7 @@ input[name="tab_item"] {
 .history-introduce-text-wrap h2,
 .healing-introduce-text-wrap h2,
 .shopping-introduce-text-wrap h2 {
-  padding: 1rem 0;
+  padding: 10px 0;
   font-size: 13px;
 }
 .art-introduce-text-wrap p,

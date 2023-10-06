@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="ko">
   <head>
@@ -20,12 +18,12 @@
   </head>
   <body>
     <!-- 지도부분 -->
-    <div class="content-container">      
+    <div class="content-container">
       <div id="location-map" class="location-map"></div>
     </div>
     <!-- 토글 슬라이드 부분 -->
     <div id="slideTarget" class="introduce-wrap introduce-content-wrap">
-      <div id="slideUpButton" class="slideUP-button"></div>      
+      <div id="slideUpButton" class="slideUP-button"></div>
       <h1>카테고리를 선택해주세요</h1>
       <!-- 탭메뉴 -->
       <div class="tabs">
@@ -50,30 +48,27 @@
           <p>쇼핑</p>
         </label>
         <div class="tab_content" id="art_content">
-          <div>                        
+          <div>
             <!-- Swiper -->
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <!-- 반복되는부분 -->
-                <% for (let i = 0; i < data.art.length; i++) { %>
-                  <% const latitude = data.art[i].latitude %>
-                  <% const longitude = data.art[i].longitude %>
-                  <div class="swiper-slide">
-                    <img src="<%= data.art[i].imgHref %>" alt="">
-                    <div class="introduce-swiper-text-wrap">
-                      <h2><%= data.art[i].name %></h2>
-                      <div class="introduce-link-wrap">
-                        <div>내 코스 담기</div>
-                        <!-- onclick 이벤트 핸들러에서 함수 호출 -->
-                        <div onclick="tripLocation('<%= latitude %>', '<%= longitude %>')">위치 확인하기</div>
-                        <div>
-                          <a href="#">자세히보기</a>
-                        </div>
+                <% for (let i = 0; i < data.art.length; i++) { %> <% const latitude = data.art[i].latitude %> <% const longitude = data.art[i].longitude %>
+                <div class="swiper-slide">
+                  <img src="<%= data.art[i].imgHref %>" alt="" />
+                  <div class="introduce-swiper-text-wrap">
+                    <h2><%= data.art[i].name %></h2>
+                    <div class="introduce-link-wrap">
+                      <div>내 코스 담기</div>
+                      <!-- onclick 이벤트 핸들러에서 함수 호출 -->
+                      <div onclick="tripLocation('<%= latitude %>', '<%= longitude %>')">위치 확인하기</div>
+                      <div>
+                        <a href="#">자세히보기</a>
                       </div>
                     </div>
                   </div>
+                </div>
                 <% } %>
-
               </div>
               <div class="swiper-button-next"></div>
               <div class="swiper-button-prev"></div>
@@ -91,11 +86,10 @@
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <!-- 반복되는부분 -->
-                <% for (let i = 0; i < data.history.length; i++) { %>
-                  <% const latitude = data.history[i].latitude %>
-                  <% const longitude = data.history[i].longitude %>
+                <% for (let i = 0; i < data.history.length; i++) { %> <% const latitude = data.history[i].latitude %> <% const longitude =
+                data.history[i].longitude %>
                 <div class="swiper-slide">
-                  <img src=<%= data.history[i].imgHref %> alt="">
+                  <img src="<%" ="data.history[i].imgHref" % /> alt="">
                   <div class="introduce-swiper-text-wrap">
                     <h2><%= data.history[i].name %></h2>
                     <div class="introduce-link-wrap">
@@ -126,11 +120,10 @@
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <!-- 반복되는부분 -->
-                <% for (let i = 0; i < data.healing.length; i++) { %>
-                  <% const latitude = data.healing[i].latitude %>
-                  <% const longitude = data.healing[i].longitude %>
+                <% for (let i = 0; i < data.healing.length; i++) { %> <% const latitude = data.healing[i].latitude %> <% const longitude =
+                data.healing[i].longitude %>
                 <div class="swiper-slide">
-                  <img src=<%= data.healing[i].imgHref %> alt="">
+                  <img src="<%" ="data.healing[i].imgHref" % /> alt="">
                   <div class="introduce-swiper-text-wrap">
                     <h2><%= data.healing[i].name %></h2>
                     <div class="introduce-link-wrap">
@@ -161,11 +154,10 @@
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <!-- 반복되는부분 -->
-                <% for (let i = 0; i < data.shopping.length; i++) { %>
-                  <% const latitude = data.shopping[i].latitude %>
-                  <% const longitude = data.shopping[i].longitude %>
+                <% for (let i = 0; i < data.shopping.length; i++) { %> <% const latitude = data.shopping[i].latitude %> <% const longitude =
+                data.shopping[i].longitude %>
                 <div class="swiper-slide">
-                  <img src=<%= data.shopping[i].imgHref %> alt="">
+                  <img src="<%" ="data.shopping[i].imgHref" % /> alt="">
                   <div class="introduce-swiper-text-wrap">
                     <h2><%= data.shopping[i].name %></h2>
                     <div class="introduce-link-wrap">
@@ -193,11 +185,10 @@
       </div>
     </div>
     <%- include('common/footer.ejs') %>
-      <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <!-- 카카오맵 -->
-  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=36b55f73185a63e716f9a576990e3a8b"></script>
-  <script src="../js/introduce.js"></script>
-
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- 카카오맵 -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=36b55f73185a63e716f9a576990e3a8b"></script>
+    <script src="../js/introduce.js"></script>
   </body>
 </html>
